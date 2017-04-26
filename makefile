@@ -6,7 +6,7 @@ bin/deposit.o:src/deposit.c
 bin/main.o:src/main.c
 	gcc -Wall -Werror -c src/main.c -o bin/main.o
 
-hello:bin/deposit.o bin/main.o 
+read:bin/deposit.o bin/main.o 
 	gcc bin/deposit.o bin/main.o -o build/deposit-calc
 
 clean:
