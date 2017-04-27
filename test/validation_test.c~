@@ -1,0 +1,19 @@
+#include "../thirdparty/ctest.h"
+
+CTEST(suite1, test1) {
+    int result = inpData(254);
+    int expected = 4;
+    ASSERT_EQUAL(expected, result);
+}
+
+CTEST(suite1, test2) {
+    int result = inpData(186);
+    int expected = 3;
+    ASSERT_EQUAL(expected, result);
+}
+
+CTEST(suite1, test3) {
+    int result = inpData(10);
+    int expected = 1;
+    ASSERT_EQUAL(expected, result);
+}

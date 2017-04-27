@@ -1,9 +1,9 @@
 #ifndef deposit
 #define deposit
-void inpData( int* , int* );
+int inpData( int* , int* );
 
 
 
 
-void CheckData(int , int);
+float CheckData(int , int);
 #endif
